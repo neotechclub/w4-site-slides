@@ -400,6 +400,14 @@ graph LR
 
 ---
 layout: center
+---
+
+#### Next Hands-On Session: Deploy your own links page! 
+
+![Portfolio Site Example](./assets/portfolio-example.png)
+
+---
+layout: center
 class: text-center
 ---
 
