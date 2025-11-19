@@ -13,7 +13,7 @@ mdc: true
 
 # Creating a Portfolio with GitHub Pages
 
-A simple guide to be a 10x Developer
+A simple guide to be a 10x Developer (lol)
 
 <div class="abs-br m-6 text-xl">
   <a href="https://github.com/neotechclub/" target="_blank" class="slidev-icon-btn">
@@ -451,7 +451,197 @@ class: text-center
 Start building your portfolio today
 
 <div class="abs-br m-6 text-xl">
-  <a href="https://github.com" target="_blank" class="slidev-icon-btn">
+  <a href="https://github.com/neotechclub" target="_blank" class="slidev-icon-btn">
+    <carbon:logo-github />
+  </a>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+# Oh, you thought this was over?
+
+### We're getting to the fun part now!
+
+MAKE YOUR OWN GITHUB PAGES WEBSITE TODAY! 
+
+---
+layout: center
+class: text-center
+transition: slide-up
+---
+
+# ⚠️ Important Notice! ⚠️
+
+<div class="text-4xl font-bold text-red-500 mt-12 mb-8 animate-pulse">
+  NOBODY GOES HOME WITHOUT:
+</div>
+
+<div class="grid grid-cols-1 gap-6 text-2xl">
+
+<v-click>
+
+## ✅ Creating a GitHub Account(Previous Session)
+
+</v-click>
+
+<v-click>
+
+## ✅ Creating the Website
+
+</v-click>
+
+<v-click>
+
+## ✅ Adapting it to your profile
+
+</v-click>
+
+</div>
+
+<div class="mt-12 text-xl opacity-75">
+  Let's make this happen together! 🎉
+</div>
+
+
+---
+layout: center
+---
+
+### How this will work
+
+We will provide a template for a very simple website that supports:
+- Profile Picture
+- QR Code to any website you wish
+- Multiple websites as buttons
+- Icons for multiple link types
+
+> You have basically made your own linktree, for free!
+
+---
+layout: center
+---
+
+# Open Website
+### https://github.com/neotechclub/links-website
+
+Scroll Down, there are PDFs attached!
+
+You can use these to cross-check progress if you get lost. 
+- If you still feel lost, raise your hands and a volunteer will come and assist you
+
+
+![README screenshot](./assets/readme-example.png)
+
+---
+layout: center
+class: text-center
+---
+
+# Step 0
+
+Before you proceed, ensure you can login to your github account. 
+- Open up github.com/login and verify that your own logins work. DO NOT SHARE THIS WITH ANYONE!
+
+
+<div class="bg-white p-8 rounded-lg inline-block">
+  <!-- QR Code placeholder - you'll need to generate this -->
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://https://github.com/login/" alt="QR Code" class="w-64 h-64" />
+</div>
+
+--- 
+layout: two-cols
+---
+
+# Step 1
+Head over to repository
+
+https://github.com/neotechclub/links-website
+
+<div class="bg-white p-4 rounded-lg inline-block">
+  <!-- QR Code placeholder - you'll need to generate this -->
+  <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://https://github.com/neotechclub/links-website/" alt="QR Code" class="w-64 h-64" />
+</div>
+
+::right::
+# Step 2
+
+On Top Right Section, click on `Use This Template` and click on "Create a new repository"
+
+![Use this Template](./assets/use-template-button-2.png)
+
+- Title: change to `johndoe.github.io`  
+- Description: change or leave blank
+- Visibility: keep it as public
+- Now Click `Create Repository`
+- Wave your hand and say "done" when you finish
+
+
+---
+layout: two-cols-header
+---
+
+### Small sidequest before we continue
+
+::left::
+You will see that our website is not live yet :(
+# Go to the actions tab
+...and click the button
+![action tab click](./assets/actions-highlight.png)
+
+::right::
+# Enable Actions
+![Consent](./assets/i-understand.png)
+
+---
+layout: two-cols-header
+---
+
+# Hey our site is (almost) live!
+::left::
+## Edit Steps
+
+Now open up details.yaml file in your repository.
+Change the entries to your liking! 
+
+details.yaml is the primary way for you to change details. Ignore other files for now :D
+
+> Tip: Request a volunteer for help if you get stuck with this step.
+
+![files](./assets/file.png)
+
+::right::
+## Go to your personal website :D
+
+### `https://<username>.github.io`
+
+This has to match your github username! For example, mine would be sounddrill31.github.io
+
+If it does not match your username, it will NOT work!
+
+Note: 
+- Profile Picture: file can be found in assets/profile-picture.jpg, change this to update your profile picture.
+- QR Code is automatically generated from URL in details.yaml file. 
+
+
+
+---
+layout: center
+class: text-center
+---
+
+# That's it from us, for real this time
+
+## Thank You for attending this workshop!
+
+Start building your portfolio today. 
+
+We hope you take something useful from this home, including your newly prepared website ;)
+
+<div class="abs-br m-6 text-xl">
+  <a href="https://github.com/neotechclub" target="_blank" class="slidev-icon-btn">
     <carbon:logo-github />
   </a>
 </div>
